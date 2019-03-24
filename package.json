@@ -1,20 +1,27 @@
 {
-  "name": "sistemas",
+  "name": "peracli2",
   "version": "1.0.0",
-  "description": "este es mi primer CLI",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "martin",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
+    "express": "^4.16.4",
     "figlet": "^1.2.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
     "inquirer": "^6.2.2",
-    "mongoose": "^5.4.19",
-    "nodemon": "^1.18.10",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.3",
+    "socket.io": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ernesto-Guerra/PeraCli2.gitn"
   }
+  
 }
