@@ -1,13 +1,18 @@
 {
-  "name": "peracli2",
+  "name": "pera",
   "version": "1.0.0",
-  "description": "",
+  "description": "nuevo cli",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commander.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin11106/mini_cli.git"
+  },
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
@@ -19,9 +24,9 @@
     "shelljs": "^0.8.3",
     "socket.io": "^2.2.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ernesto-Guerra/PeraCli2.gitn"
-  }
-  
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martin11106/mini_cli/issues"
+  },
+  "homepage": "https://github.com/martin11106/mini_cli#readme"
 }
